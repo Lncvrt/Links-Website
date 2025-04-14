@@ -21,7 +21,7 @@ export default function Home() {
           </Link>
           <Link href="https://repo.lncvrt.xyz/#/" target="_blank" rel="noopener noreferrer" className="button">
             <FontAwesomeIcon icon={faFolderOpen} width={24} height={24} className="button-icon" />
-            Code Repository
+            Maven Repository
           </Link>
           <Link href="https://status.lncvrt.xyz/" target="_blank" rel="noopener noreferrer" className="button">
             <FontAwesomeIcon icon={faSignal} width={24} height={24} className="button-icon" />
