@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFolderOpen, faHouse, faSignal } from '@fortawesome/free-solid-svg-icons';
+import { faFolderOpen, faHouse, faSignal, faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faGithub, faJenkins } from '@fortawesome/free-brands-svg-icons';
 import type { Metadata } from "next";
 
@@ -38,6 +38,10 @@ export default function Home() {
           <Link href="https://lncvrt.xyz/discord" target="_blank" rel="noopener noreferrer" className="button">
             <FontAwesomeIcon icon={faDiscord} width={24} height={24} className="button-icon" />
             Discord
+          </Link>
+          <Link href="https://lncvrt.xyz/contacts" target="_blank" rel="noopener noreferrer" className="button">
+            <FontAwesomeIcon icon={faQuestion} width={24} height={24} className="button-icon" />
+            Other Socials
           </Link>
         </div>
       </div>
