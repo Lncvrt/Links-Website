@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFolderOpen, faHouse, faSignal, faQuestion } from '@fortawesome/free-solid-svg-icons';
+import { faFolderOpen, faHouse, faQuestion } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faGithub, faJenkins } from '@fortawesome/free-brands-svg-icons';
 import type { Metadata } from "next";
 
@@ -22,10 +22,6 @@ export default function Home() {
           <Link href="https://repo.lncvrt.xyz/#/" target="_blank" rel="noopener noreferrer" className="button">
             <FontAwesomeIcon icon={faFolderOpen} width={24} height={24} className="button-icon" />
             Maven Repository
-          </Link>
-          <Link href="https://status.lncvrt.xyz/" target="_blank" rel="noopener noreferrer" className="button">
-            <FontAwesomeIcon icon={faSignal} width={24} height={24} className="button-icon" />
-            Status Page
           </Link>
           <Link href="https://lncvrt.xyz/" target="_blank" rel="noopener noreferrer" className="button">
             <FontAwesomeIcon icon={faHouse} width={24} height={24} className="button-icon" />
