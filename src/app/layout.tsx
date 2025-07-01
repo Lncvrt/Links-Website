@@ -2,7 +2,7 @@ import { Lexend } from "next/font/google";
 import "./globals.css";
 
 const lexend = Lexend({
-  variable: "--font-geist-sans",
+  variable: "--font-lexend",
   subsets: ["latin"]
 });
 
