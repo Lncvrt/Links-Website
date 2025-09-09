@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFolderOpen, faHouse, faQuestion } from '@fortawesome/free-solid-svg-icons';
-import { faDiscord, faGithub, faJenkins } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faJenkins } from '@fortawesome/free-brands-svg-icons';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
