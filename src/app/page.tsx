@@ -31,10 +31,6 @@ export default function Home() {
             <FontAwesomeIcon icon={faGithub} width={24} height={24} className="button-icon" />
             GitHub
           </Link>
-          <Link href="https://lncvrt.xyz/discord" target="_blank" rel="noopener noreferrer" className="button">
-            <FontAwesomeIcon icon={faDiscord} width={24} height={24} className="button-icon" />
-            Discord
-          </Link>
           <Link href="https://lncvrt.xyz/contacts" target="_blank" rel="noopener noreferrer" className="button">
             <FontAwesomeIcon icon={faQuestion} width={24} height={24} className="button-icon" />
             Other Socials

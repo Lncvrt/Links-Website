@@ -10,7 +10,7 @@ body {
 }
 
 .button {
-  @apply duration-[0.5s] transition-all hover:scale-105;
+  @apply transition-all hover:scale-105;
   @apply border-[#424242] rounded-2xl border border-solid;
   @apply bg-[#1e1e1e] w-[100%] flex items-center p-5 shadow-lg font-semibold;
 }
