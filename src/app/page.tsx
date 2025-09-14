@@ -7,6 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faJenkins } from '@fortawesome/free-brands-svg-icons'
 import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Lncvrt's Websites & Links"
@@ -90,6 +91,38 @@ export default function Home () {
               className='button-icon'
             />
             Other Socials
+          </Link>
+          <Link
+            href='https://berrydash.lncvrt.xyz/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='button'
+          >
+            <Image
+              src='https://raw.githubusercontent.com/BerryDash/source/refs/heads/dev/Assets/Resources/Icon.png'
+              width={24}
+              height={24}
+              alt=''
+              unoptimized={true}
+              className='button-icon'
+            />
+            Berry Dash
+          </Link>
+          <Link
+            href='https://triangles.lncvrt.xyz/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='button'
+          >
+            <Image
+              src='https://triangles.lncvrt.xyz/favicon.png'
+              width={24}
+              height={24}
+              alt=''
+              unoptimized={true}
+              className='button-icon'
+            />
+            Triangles
           </Link>
         </div>
       </div>
