@@ -1,21 +1,19 @@
-import { Lexend } from "next/font/google";
-import "./globals.css";
+import { Lexend } from 'next/font/google'
+import './globals.css'
 
 const lexend = Lexend({
-  variable: "--font-lexend",
-  subsets: ["latin"]
-});
+  variable: '--font-lexend',
+  subsets: ['latin']
+})
 
-export default function RootLayout({
-  children,
+export default function RootLayout ({
+  children
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={lexend.className}>
-        {children}
-      </body>
+    <html lang='en'>
+      <body className={lexend.className}>{children}</body>
     </html>
-  );
+  )
 }
